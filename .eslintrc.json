@@ -4,11 +4,15 @@
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
-    "prettier"
+    "prettier",
+    "plugin:vitest/all"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "plugins": [
+    "vitest"
+  ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
