@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import Home from "@/pages/index";
+import Home from "./index";
 
 test("home", () => {
   render(<Home />);
-  expect(screen.getByText("Hello, Next.js!!"));
+  expect(screen.getByText("Hello from NextJS"));
 });
